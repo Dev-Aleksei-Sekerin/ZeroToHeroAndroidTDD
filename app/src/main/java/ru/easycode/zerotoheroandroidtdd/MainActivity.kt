@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val button: TextView = findViewById(R.id.changeButton)
         button.setOnClickListener {
-            textView.text = "I am an Android Developer!"
+            textView.setText("I am an Android Developer!")
         }
     }
 }
